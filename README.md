@@ -4,12 +4,11 @@
 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4EF752&width=435&lines=%D0%A4%D0%B8%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE;%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80)](https://git.io/typing-svg)
 
 ### *В репозитории хранятся проекты, выполненные по направлению 1C - разработчик.*
 #### Источники данных не приложены.
 
-|   № |    Задача  |   Описание |  Навыки и инструменты |
+|   № |    Задача  |   Дополнительные комментарии |  Описание |
 |:----|:---------------------|:---------|:----------------------|
 |   1.  |   [Разработать систему, предназначенную для компании, которая занимается изготовлением моторных и парусных яхт.](https://github.com/brrndalex/1C_Developer/tree/main/Business%20task_1)                   |  1. В "ручном" режиме: Получить "сырые" данные из API и сохранить их в MinioS3 в форматах json и parquet. Из MinioS3 загрузить данные в формате parquet в DWH, во временные таблицы GreenPlum. И в заключении из временных таблиц загрузить данные в спроектированные объекты Data Vault. 2. С помощью Аpache Airflow объединить все этапы в один общий, непрерывный поток, конвейер данных.       |   Python (библиотеки: requests, boto3, json, pandas, pyarrow). SQL. Командная строка Linux. Docker compose. Minio. Greenplum. DBT. Data Vault 2.0. Apache Airflow. VSCode. Draw.io. DBeaver.                    |
 |   2.  |    [ЗАГРУЗКА ДАННЫХ, из Hadoop (HDFS), Apache Kafka  с использованием Apache Spark в Hadoop (HDFS).](https://github.com/brrndalex/1C_Developer/tree/main/Business%20task_2)                          |   Подготовить данные в HDFS. Загрузить данные в топик Apache Kafka. Переписать запрос для сборки витрины с SQL на PySpark. Сформировать пайплайн, считывая Apache Spark-ом данные из HDFS и из Apache Kafka. Сохранить результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS-директорию.      |  Python (библиотеки: confluent_kafka(Producer), json, csv), Apache Spark (PySpark), Docker compose, Hadoop (HDFS), Apache Kafka. Jupyter Notebook.                     |  
