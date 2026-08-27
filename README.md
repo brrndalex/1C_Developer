@@ -1,11 +1,8 @@
 # 1С -разработчик
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Филоненко+Александр+1С+разработчик)](https://git.io/typing-svg)
 
 
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Филоненко+Александр+Data+Engineer)](https://git.io/typing-svg)
-
-# Data-Engineer (Data Analyst)-Projects
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4EF752&width=435&lines=%D0%A4%D0%B8%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE;%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80)](https://git.io/typing-svg)
 
