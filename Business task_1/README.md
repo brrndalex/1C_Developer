@@ -95,18 +95,9 @@
 УДАЛОСЬ:
 
  # Используемые навыки и инструменты
- * Python (библиотеки: requests, boto3, json, pandas, pyarrow).
- * SQL.
- * Greenplum.
- * MinioS3.
- * DBT.
- * Data Vault 2.0.
- * Apache Airflow.
- * Командная строка Linux.
- * Docker compose.
- * VSCode.
- * DBeaver.
+ * Платформа "1С: Предприятие 8.3" ( Язык запросов, язык программирования, управляемые формы, СКД и т.д.). 
  * Draw.io.
+
   
 # Статус
 - [x] Завершен
