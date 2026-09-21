@@ -111,10 +111,6 @@
 
 
 
-
-
-
-
 # Действия в рамках проекта
 1 ЭТАП: Работал в VSCode. [Загрузил "сырые" данные](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./project_minio_transfermarkt.py) из REST API из https://transfermarkt-api.vercel.app с помощью Python (библиотека requests).  
 
@@ -144,19 +140,3 @@
 # Выводы по проекту
  УДАЛОСЬ: 1. В "ручном" режиме все получилось, а именно: Получить "сырые" данные из API и сохранить их в MinioS3 в форматах json и parquet. Из MinioS3 загрузить данные в формате parquet в DWH, во временные таблицы GreenPlum. А из временных таблиц загрузить данные в спроектированные объекты по типу Data Vault2.0. 2. [Конвейер, получилось](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./DAG%20-loading%20%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202024-04-11%2000-11-43.png) только следующее: С помощью Аpache Airflow объединить в один общий, непрерывный поток, конвейер данных, следующие этапы: Получить "сырые" данные из API и сохранить их в MinioS3 в форматах json и parquet. Из MinioS3 загрузить данные в формате parquet в DWH, во временные таблицы GreenPlum. НЕ УДАЛОСЬ: в DWH, из временных таблиц GreenPlum загрузить данные в спроектированные объекты по типу Data Vault2.0([запуск dbt-модели(astronomer cosmor)](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./run_dbt_transfermarkt%20_vm.py))- [с апреля 2024 закрыт доступ](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./DAG-dbt%20%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202024-04-11%2014-58-51.png) к API источника данных.
  
- # Используемые навыки и инструменты
- * Python (библиотеки: requests, boto3, json, pandas, pyarrow).
- * SQL.
- * Greenplum.
- * MinioS3.
- * DBT.
- * Data Vault 2.0.
- * Apache Airflow.
- * Командная строка Linux.
- * Docker compose.
- * VSCode.
- * DBeaver.
- * Draw.io.
-  
-# Статус
-- [x] Завершен
