@@ -96,8 +96,23 @@
 
 Уточнение 2. Процесс оформления отчетов 
 Также руководство хочет иметь отчет, который покажет, кто чаще всего прибегает к услугам компании, кто делает самые дорогие заказы, чтобы такие премиальные клиенты не остались без должного внимания.
+    
+![]()     
+  
+![]()   
 
-РОЛИ И ПРАВА     
+![]()  
+   
+![]()   
+
+![]()   
+
+![]()  
+ОТЧЕТЫ В ВИДЕ ДИАГРАММА ИЛИ СПИСКА   
+![]()   
+Интерфейс.     [Интерфейс.]()  
+![]()      
+РОЛИ И ПРАВА       
 ![](https://github.com/brrndalex/1C_Developer/blob/main/Business%20task_1/%D1%80%D0%BE%D0%BB%D0%B8_%D0%BF%D1%80%D0%B0%D0%B2%D0%B0_%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80.png)
 
 
@@ -112,16 +127,4 @@
   
 # Статус
 - [x] Завершен
-
-
-
-# Действия в рамках проекта
-1 ЭТАП: Работал в VSCode. [Загрузил "сырые" данные](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./project_minio_transfermarkt.py) из REST API из https://transfermarkt-api.vercel.app с помощью Python (библиотека requests).  
-
-2 ЭТАП: Запустил из командной строки [docker compose с Minio и с GreenPlum](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./compose.yml). Сохранил данные в Minio(в созданном объекте(бакет/корзина) для хранения) в виде json-файлов. [Для этого использовал Python, библиотеки boto3(библиотека для работы с AWS(S3)-Minio) и json](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./project_minio_transfermarkt.py).   
-  
-| Service |	Port |
-|:--------|:-----|
-|  Minio  | http://localhost:9000     |
-|  GreenPlum       |  DBeaver host:localhost    |
 
