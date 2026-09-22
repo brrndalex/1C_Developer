@@ -100,13 +100,16 @@
          
 3). Форму ввода данных в документе "Договоры" реализовал как показано в нижеприведенной картинке (данные вводятся на основании данных из документа "Заказы" - реализация механизма "Ввод на основании"):             
    
-![](https://github.com/brrndalex/1C_Developer/blob/main/Business%20task_1/%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B_%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%B5%D0%B9.png)       
-    
-   
-![](https://github.com/brrndalex/1C_Developer/blob/main/Business%20task_1/%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%D0%BD%D0%B0%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C.png)        
-                
-![](https://github.com/brrndalex/1C_Developer/blob/main/Business%20task_1/%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C_%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%B5%D0%B9.png)       
-   
+![](https://github.com/brrndalex/1C_Developer/blob/main/Business%20task_1/%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B_%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%B5%D0%B9.png)         
+        
+Кроме того, создал макеты печатной формы документа "Договоры". При нажатии на кнопку "Печать" выводится список созданных печатных форм:     
+       
+![](https://github.com/brrndalex/1C_Developer/blob/main/Business%20task_1/%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%D0%BD%D0%B0%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C.png)  
+
+В качестве примера привожу один из них("График платежей):    
+                    
+![](https://github.com/brrndalex/1C_Developer/blob/main/Business%20task_1/%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C_%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%B5%D0%B9.png)          
+       
 3 ЭТАП. Создание процесса оформления отчетов.   
 
 Также руководство хочет иметь отчет, который покажет, кто чаще всего прибегает к услугам компании, кто делает самые дорогие заказы, чтобы такие премиальные клиенты не остались без должного внимания.
